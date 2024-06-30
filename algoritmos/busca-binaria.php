@@ -8,7 +8,6 @@ function pesquisa_binaria($lista, $item)
     while ($baixo <= $alto) {
         // encontra o indice do meio do array
         $meio = ($baixo + $alto) / 2;
-
         $chute = $lista[$meio];
 
         if ($chute === $item) {
@@ -20,8 +19,9 @@ function pesquisa_binaria($lista, $item)
         }else{
             $baixo = $meio +1;
         }
-
     }
+    
+    return null;
 }
 
 var_dump(pesquisa_binaria([1, 2, 3, 4, 5, 6, 7], 7));
