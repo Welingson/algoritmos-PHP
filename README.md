@@ -1,1 +1,1 @@
-# Estudos de altoritmos com PHP
+# Estudos de algoritmos com PHP
